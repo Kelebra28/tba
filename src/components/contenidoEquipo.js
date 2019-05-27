@@ -1,4 +1,4 @@
-import React from 'react';
+     import React from 'react';
 import Badge from './BadgeEquipo';
 
 const Contenido = props => {
