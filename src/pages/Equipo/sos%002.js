@@ -20,12 +20,22 @@ const Abogado = props => {
                 <ContenidoEquipo
                     data={props.data}
                     badgeName={props.data.areas.equipo.areas.nombre}
-                    parrafoUno={props.data.areas.equipo.areas.uno}
-                    parrafoDos={props.data.areas.equipo.areas.dos}
-                    parrafoTres={props.data.areas.equipo.areas.tres}
-                    parrafoCuatro={props.data.areas.equipo.areas.cuatro}
-                />
+                    parrafoUno={props.data.areas.equipo.areas.cinco}
+                    parrafoDos={props.data.areas.equipo.areas.seis}
+                    parrafoTres={props.data.areas.equipo.areas.dos}
+                    parrafoCuatro={props.data.areas.equipo.areas.uno}
 
+                    badgeName2={props.data.areas.equipo.educacion.nombre}
+                    parrafoUno2={props.data.areas.equipo.educacion.MBuno}
+                    parrafoDos2={props.data.areas.equipo.educacion.MBdos}
+                    parrafoTres2={props.data.areas.equipo.educacion.MBtres}
+
+                    badgeName3={props.data.areas.equipo.asociaciones.nombre}
+                    parrafoUno3={props.data.areas.equipo.asociaciones.MBuno}
+                    parrafoDos3={props.data.areas.equipo.asociaciones.MBdos}
+                    parrafoTres3={props.data.areas.equipo.asociaciones.MBtres}
+                    parrafoCuatro3={props.data.areas.equipo.asociaciones.MBcuatro}
+                />
             </section>
 
         </div>

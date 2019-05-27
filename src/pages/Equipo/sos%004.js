@@ -17,15 +17,25 @@ const Abogado = props => {
                     correoEquipo="ckoller@turanzas.com.mx"
                     linkCorreo="mailto:ckoller@turanzas.com.mx"
                 />
-                <ContenidoEquipo
+                  <ContenidoEquipo
                     data={props.data}
                     badgeName={props.data.areas.equipo.areas.nombre}
-                    parrafoUno={props.data.areas.equipo.areas.uno}
+                    parrafoUno={props.data.areas.equipo.areas.once}
                     parrafoDos={props.data.areas.equipo.areas.dos}
-                    parrafoTres={props.data.areas.equipo.areas.tres}
-                    parrafoCuatro={props.data.areas.equipo.areas.cuatro}
-                />
+                    parrafoTres={props.data.areas.equipo.areas.doce}
+                    parrafoCuatro={props.data.areas.equipo.areas.catorce}
+                    parrafoCinco={props.data.areas.equipo.areas.quince}
+                    parrafoSeis={props.data.areas.equipo.areas.dieciseis}
 
+                    badgeName2={props.data.areas.equipo.educacion.nombre}
+                    parrafoUno2={props.data.areas.equipo.educacion.CEuno}
+                    parrafoDos2={props.data.areas.equipo.educacion.CEdos}
+                    parrafoTres2={props.data.areas.equipo.educacion.CEtres}
+
+                    badgeName3={props.data.areas.equipo.asociaciones.nombre}
+                    parrafoUno3={props.data.areas.equipo.asociaciones.CEuno}
+                    parrafoDos3={props.data.areas.equipo.asociaciones.CEdos}
+                />
             </section>
 
         </div>

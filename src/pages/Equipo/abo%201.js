@@ -17,13 +17,16 @@ const Abogado = props => {
                     correoEquipo="lrosas@turanzas.com.mx"
                     linkCorreo="mailto:lrosas@turanzas.com.mx"
                 />
-                <ContenidoEquipo
+                  <ContenidoEquipo
                     data={props.data}
                     badgeName={props.data.areas.equipo.areas.nombre}
-                    parrafoUno={props.data.areas.equipo.areas.uno}
-                    parrafoDos={props.data.areas.equipo.areas.dos}
-                    parrafoTres={props.data.areas.equipo.areas.tres}
-                    parrafoCuatro={props.data.areas.equipo.areas.cuatro}
+                    parrafoUno={props.data.areas.equipo.areas.dos}
+                    parrafoDos={props.data.areas.equipo.areas.diez}
+                    parrafoTres={props.data.areas.equipo.areas.veinte}
+
+                    parrafoUno2={props.data.areas.equipo.educacion.LAuno}
+                    parrafoDos2={props.data.areas.equipo.educacion.LAdos}
+                    parrafoTres2={props.data.areas.equipo.educacion.LAtres}
                 />
 
             </section>

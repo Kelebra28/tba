@@ -189,12 +189,12 @@
                 "FHuno":"• Licenciatura en derecho por la Universidad Panamericana",
                 "FHdos":"• Curso de Fiscalidad Internacional “International Tax Law” por la Universidad de Nueva York",
                 "FHtres":"• Curso de Introducción al sistema legal Estadounidense “Introduction to the U.S Law System” por la Universidad de Fordham, Nueva York",
-                "ADuno":"• Universidad Panamericana",
-                "JPuno":"• Universidad Iberoamericana",
-                "MFuno":"• Universidad Westhill",
-                "LMuno":"• Universidad Panamericana",
-                "JCuno":"• Universidad Panamericana",
-                "GBuno":"• Universidad Panamericana"
+                "AD":"• Universidad Panamericana",
+                "JP":"• Universidad Iberoamericana",
+                "MF":"• Universidad Westhill",
+                "LM":"• Universidad Panamericana",
+                "JC":"• Universidad Panamericana",
+                "GB":"• Universidad Panamericana"
             },
             "asociaciones":{
                 "nombre":"Asociaciones profesionales",
